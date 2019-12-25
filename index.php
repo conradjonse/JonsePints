@@ -62,12 +62,14 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 		<!-- Set location of Cascading Style Sheet -->
+
 		<link rel="stylesheet" type="text/css" href="style.css">
 		
 		<?php if($config[ConfigNames::UseHighResolution]) { ?>
 			<link rel="stylesheet" type="text/css" href="high-res.css">
 		<?php } ?>
 		
+
 		<link rel="shortcut icon" href="img/pint.ico">
 	</head> 
 
@@ -76,21 +78,25 @@
         	<!-- Header with Brewery Logo and Project Name -->
             <div class="header clearfix">
                 <div class="HeaderLeft">
+<!--
 					<?php if($config[ConfigNames::UseHighResolution]) { ?>			
 						<a href="admin/admin.php"><img src="<?php echo $config[ConfigNames::LogoUrl]; ?>" height="200" alt=""></a>
 					<?php } else { ?>
 						<a href="admin/admin.php"><img src="<?php echo $config[ConfigNames::LogoUrl]; ?>" height="100" alt=""></a>
 					<?php } ?>
+-->
                 </div>
                 <div class="HeaderCenter">
-                    <h1 id="HeaderTitle"><? echo $config[ConfigNames::HeaderText]; ?></h1>
+                    <h1 id="HeaderTitle"><? echo $config[ConfigNames::HeaderText]; ?> Jonse Brew and Chew</h1>
                 </div>
                 <div class="HeaderRight">
+<!--
 					<?php if($config[ConfigNames::UseHighResolution]) { ?>			
 						<a href="http://www.raspberrypints.com"><img src="img/RaspberryPints-4k.png" height="200" alt=""></a>
 					<?php } else { ?>
 						<a href="http://www.raspberrypints.com"><img src="img/RaspberryPints.png" height="100" alt=""></a>
 					<?php } ?>
+-->
                 </div>
             </div>
             <!-- End Header Bar -->
